@@ -24,3 +24,65 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+ion-input {
+    max-width: 350px; /* Adjust this value as needed */
+    margin: auto;
+}
+
+ion-card {
+    margin: 20px;
+}
+
+.main-button {
+    max-width: 200px; /* Adjust this value as needed */
+    margin: auto;
+    --background: #EC8C6F;
+}
+
+.link-button {
+    --color: dimgrey;
+}
+
+.picture {
+    margin: 30px;
+}
+
+.title {
+    margin: 25px;
+}
+
+.subtitle {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.ion-content-scroll-host {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.my-content {
+    --overflow: auto;
+}
+
+ion-title {
+    font-weight: bolder;
+}
